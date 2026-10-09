@@ -2,15 +2,23 @@
   "name": "02-backend",
   "version": "1.0.0",
   "description": "",
-  "keywords": [
-    "javasript",
-    "backend"
-  ],
+  "homepage": "https://github.com/Manish70896/First-Project#readme",
+  "bugs": {
+    "url": "https://github.com/Manish70896/First-Project/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manish70896/First-Project.git"
+  },
   "license": "ISC",
-  "author": "Manish",
-  "type": "commonjs",
-  "main": "index.js",
+  "author": "",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14",
+    "prettier": "^3.9.9"
   }
 }
